@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Poppins:wght@300;400;600;700&family=Yeseva+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Fira Code', monospace;
+    background-color: #f1ffff;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    padding: 0 30px;
+}
+.row{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 90px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    letter-spacing: .4px;
+    color: #1e1e1e;
+}
+.button{
+    margin-bottom: 25px;
+}
+.button a{
+    padding: 12px 35px;
+    color: #fff;
+    background-color: orangered;
+    border-radius: 5px;
+    display: inline-block;
+}
+span{
+    color: orangered;
+}
+/* section{
+    padding-top: 50px;
+} */
+.section_header h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    text-align: center;
+    color: #1c1c1c;
+    letter-spacing: 1px;
+    padding: 20px 0 50px;
+}
+#home_info{
+    flex-basis: 50%;
+    margin-top: 50px;
+    padding: 0 30px;
+}
+#home_heading{
+    position: relative;
+    padding-left: 15px;
+    border: none;
+}
+#home_heading::before{
+    content: '';
+    position: absolute;
+    height: 85%;
+    width: 5px;
+    background-color: deeppink;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+    transform: translateY(10%);
+
+}
+#home_heading h1{
+    font-family: 'Yeseva One', cursive;
+    font-size: 56px;
+    font-weight: 400;
+}
+.inner {
+    margin: 25px 0;
+    width: 85%;
+}
+div#home_page_image {
+    flex-basis: 40%;
+    margin-bottom: 50px;
+    display: inline-flex;
+}
+
+div#home_page_image img {
+    width: 90%;
+    margin: auto;
+}
+
+
+
+/* My Mission Section start */
+
+
+.my_mission_div {
+    flex-basis: 31%;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.my_mission_div img {
+    width: 40%;
+}
+
+.my_mission_div h3 {
+    font-family: 'Poppins';
+    color: #1e1e1e;
+    font-size: 20px;
+    padding: 12px 0;
+}
+.pink{
+    background-color: #ff008a17;
+}
+.green{
+    background-color: #00800026;
+}
+.blue{
+    background-color: #00bfff1c;
+}
+.row_two{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 70px;
+}
+.blog_image {
+    flex-basis: 36%;
+    padding: 25px;
+    display: inline-flex;
+}
+
+.blog_image img {
+    width: 100%;
+    transition: 400ms;
+}
+.blog_image img:hover{
+    transform: scale(1.1);
+}
+
+.coding_div {
+    flex-basis: 59%;
+    padding: 30px 50px;
+}
+
+h2.coding_header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 37px;
+    margin-bottom: 20px;
+}
+span.black_color {
+    display: block;
+    color: #1c1c1c;
+}
+
+
+/* contact Section start */
+
+
+div#contact_header {
+    width: 100%;
+    text-align: center;
+    margin: 60px 0 50px;
+}
+
+div#contact_header h2 {
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: 400;
+    color: #1c1c1c;
+}
+
+div#contact_header p {
+    width: 50%;
+    margin: auto;
+    padding: 15px 0;
+    font-size: 18px;
+}
+
+.contact_links {
+    flex-basis: 30%;
+    padding: 25px;
+    border-radius: 15px;
+    background-color: beige;
+    text-align: center;
+}
+
+.contact_info {
+    width: 70%;
+    display: inline-block;
+}
+
+
+
+/* contact Section end */
+
+
+
+/* footer section start */
+
+
+
+footer#footer {
+    background-color: #1c1c1c;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0 20px;
+}
+
+div#mission h1 {
+    color: #fff;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+
+div#mission p {
+    color: #fff;
+    font-family: 'Fira Code';
+}
+.contact_info ul li {
+    list-style: none;
+}
+
+
+
+/* footer section end */
+
+
+
+/* 
+
+font-family: 'Fira Code', monospace;
+font-family: 'Poppins', sans-serif;
+font-family: 'Yeseva One', cursive;
+
+*/
