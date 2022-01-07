@@ -74,7 +74,7 @@ span{
     position: absolute;
     height: 85%;
     width: 5px;
-    background-color: #ef2492;
+    background-color: #1e9ec9;
     border-radius: 5px;
     top: 0;
     left: 0;
@@ -161,10 +161,11 @@ h2.coding_header {
     font-family: 'Poppins', sans-serif;
     font-size: 37px;
     margin-bottom: 20px;
+    color: #303030;
 }
 span.black_color {
     display: block;
-    color: #1c1c1c;
+    color: #303030;
 }
 
 
@@ -313,24 +314,3 @@ div#mission p {
 
 
 /* footer section end */
-
-
-div#scroll_button {
-    bottom: 50px;
-    right: 40px;
-    position: fixed;
-}
-
-div#scroll_button a {
-    background: #31c48d;
-    padding: 20px;
-    border: none;
-    border-radius: 50%;
-    display: inline-flex;
-    box-shadow: 1px 2px 5px #747474;
-}
-
-div#scroll_button a i {
-    color: #fff;
-    font-size: 18px;
-}
