@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Poppins:wght@300;400;600;700&family=Yeseva+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600;700&family=Moon+Dance&family=Poppins:wght@400;500;600;700&family=Yeseva+One&display=swap');
 
 *{
     margin: 0;
@@ -11,10 +10,21 @@ html{
 }
 body{
     font-family: 'Fira Code', monospace;
-    background-color: #f1ffff;
+    background-color: #00bfff12;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    color: #1e1e1e;
 }
 a{
     text-decoration: none;
+}
+span{
+    color: #10a978;
 }
 .container{
     width: 100%;
@@ -29,29 +39,17 @@ a{
     margin: 0 90px;
 }
 
-p {
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 20px;
-    line-height: 1.5;
-    letter-spacing: .4px;
-    color: #1e1e1e;
-}
 .button{
     margin-bottom: 25px;
 }
 .button a{
     padding: 12px 35px;
     color: #fff;
-    background-color: orangered;
+    background-color: #31c48d;
     border-radius: 5px;
     display: inline-block;
 }
-span{
-    color: orangered;
-}
-/* section{
-    padding-top: 50px;
-} */
+
 .section_header h1{
     font-family: 'Poppins', sans-serif;
     font-size: 44px;
@@ -76,21 +74,21 @@ span{
     position: absolute;
     height: 85%;
     width: 5px;
-    background-color: deeppink;
+    background-color: #ef2492;
     border-radius: 5px;
     top: 0;
     left: 0;
     transform: translateY(10%);
-
 }
 #home_heading h1{
     font-family: 'Yeseva One', cursive;
     font-size: 56px;
     font-weight: 400;
+    color: #303030;
 }
 .inner {
     margin: 25px 0;
-    width: 85%;
+    width: 95%;
 }
 div#home_page_image {
     flex-basis: 40%;
@@ -119,7 +117,7 @@ div#home_page_image img {
 }
 
 .my_mission_div h3 {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     color: #1e1e1e;
     font-size: 20px;
     padding: 12px 0;
@@ -183,7 +181,7 @@ section#contact {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-color: #f9f9f9;
+    background-color: #a3b5a81c;
 }
 div#contact_image {
     width: 40%;
@@ -193,9 +191,29 @@ div#contact_image {
     background-size: inherit;
     background-position: top;
 }
-div#contact_div h3 {
+div#message h3 {
+    position: relative;
+    display: inline-block;
     font-family: 'Moon Dance', cursive;
+    color: #31c48d;
+    letter-spacing: 1px;
+    font-size: 24px;
+    margin-left: 55px;
 }
+
+div#message {
+    position: relative;
+}
+div#message::before {
+    content: '';
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    background: #31c48d;
+    left: 0;
+    top: 16px;
+}
+
 
 div#contact_div {
     padding: 0 50px 0 20px;
@@ -203,7 +221,7 @@ div#contact_div {
 }
 
 div#contact_div h2 {
-    font-family: 'Poppins', monospace;
+    font-family: 'Poppins', sans-serif;
     font-size: 40px;
     color: #1c1c1c;
     font-weight: 100;
@@ -213,16 +231,18 @@ div#contact_div h2 {
 
 div#contact_div span {
     display: block;
-    color: deeppink;
-    font-weight: 700;
+    color: #303030;
+    font-weight: 600;
 }
 form input {
     display: inline-block;
     width: 100%;
     margin: 15px 0;
     padding: 20px 15px;
-    border: 1px solid black;
-    border-radius: 5px;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    font-family: 'Fira Code', monospace;
+    font-size: 15px;
 }
 div#name {
     display: flex;
@@ -240,12 +260,16 @@ textarea#textarea {
     width: 100%;
     padding: 15px;
     margin: 10px 0;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    font-family: 'Fira Code', monospace;
+    font-size: 15px;
 }
 #submit_button {
     padding: 12px 55px;
     font-family: 'Fira Code', monospace;
     color: #fff;
-    background-color: orangered;
+    background-color: #31c48d;
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -253,6 +277,7 @@ textarea#textarea {
     border-radius: 5px;
     display: inline-block;
     margin-top: 15px;
+    cursor: pointer;
 }
 
 
@@ -275,8 +300,9 @@ footer#footer {
 
 div#mission h1 {
     color: #fff;
-    font-family: cursive;
+    font-family: 'Moon Dance', cursive;
     margin-bottom: 20px;
+    letter-spacing: 2px;
 }
 
 div#mission p {
@@ -291,27 +317,20 @@ div#mission p {
 
 div#scroll_button {
     bottom: 50px;
-    right: 50px;
+    right: 40px;
     position: fixed;
 }
 
 div#scroll_button a {
-    background: red;
+    background: #31c48d;
     padding: 20px;
-    border: 1px solid beige;
+    border: none;
     border-radius: 50%;
     display: inline-flex;
-    box-shadow: 1px 2px 5px white;
+    box-shadow: 1px 2px 5px #747474;
 }
 
 div#scroll_button a i {
     color: #fff;
     font-size: 18px;
 }
-/* 
-
-font-family: 'Fira Code', monospace;
-font-family: 'Poppins', sans-serif;
-font-family: 'Yeseva One', cursive;
-
-*/
