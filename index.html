@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <section id="home">
@@ -117,7 +119,29 @@
 
 
 
-    
+    <section id="contact">
+            <div id="container_row">
+                <div id="contact_image">
+                </div>
+                <div id="contact_div">
+                    <h3>
+                        Write Message
+                    </h3>
+                    <h2>
+                        Make An <span class="contact">Appointment</span>
+                    </h2>
+                    <form action="#">
+                        <div id="name">
+                            <input class='name' type="text" placeholder="First Name">
+                            <input class='name' type="text" placeholder="Last Name">
+                        </div>
+                        <input type="email" placeholder="Write your email">
+                        <textarea rows="7" id='textarea' placeholder="Write your message"></textarea>
+                        <button id='submit_button'>Submit</button>
+                    </form>
+                </div>
+            </div>
+    </section>
 
 
 
@@ -140,6 +164,9 @@
         </div>
     </footer>
 
+    <div id="scroll_button">
+        <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
 
 
     <!-- Footer section end -->

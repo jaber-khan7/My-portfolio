@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Poppins:wght@300;400;600;700&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
 
 *{
     margin: 0;
@@ -108,7 +109,7 @@ div#home_page_image img {
 
 
 .my_mission_div {
-    flex-basis: 31%;
+    flex-basis: 30.5%;
     padding: 30px;
     border-radius: 25px;
 }
@@ -173,6 +174,87 @@ span.black_color {
 
 
 
+section#contact {
+    margin-top: 50px;
+    width: 100%;
+}
+#container_row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+}
+div#contact_image {
+    width: 40%;
+    height: 700px;
+    background: url(http://html.tonatheme.com/2020/Danbury/images/resource/appointment.jpg);
+    background-repeat: no-repeat;
+    background-size: inherit;
+    background-position: top;
+}
+div#contact_div h3 {
+    font-family: 'Moon Dance', cursive;
+}
+
+div#contact_div {
+    padding: 0 50px 0 20px;
+    flex-basis: 55%;
+}
+
+div#contact_div h2 {
+    font-family: 'Poppins', monospace;
+    font-size: 40px;
+    color: #1c1c1c;
+    font-weight: 100;
+    line-height: 1.1;
+    margin: 10px 0 30px;
+}
+
+div#contact_div span {
+    display: block;
+    color: deeppink;
+    font-weight: 700;
+}
+form input {
+    display: inline-block;
+    width: 100%;
+    margin: 15px 0;
+    padding: 20px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+div#name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+input.name {
+    width: 48%;
+}
+
+textarea#textarea {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+}
+#submit_button {
+    padding: 12px 55px;
+    font-family: 'Fira Code', monospace;
+    color: #fff;
+    background-color: orangered;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
 
 
 
@@ -201,16 +283,31 @@ div#mission p {
     color: #fff;
     font-family: 'Fira Code', monospace;
 }
-p.address {
-    margin: 0;
-}
 
 
 
 /* footer section end */
 
 
+div#scroll_button {
+    bottom: 50px;
+    right: 50px;
+    position: fixed;
+}
 
+div#scroll_button a {
+    background: red;
+    padding: 20px;
+    border: 1px solid beige;
+    border-radius: 50%;
+    display: inline-flex;
+    box-shadow: 1px 2px 5px white;
+}
+
+div#scroll_button a i {
+    color: #fff;
+    font-size: 18px;
+}
 /* 
 
 font-family: 'Fira Code', monospace;
